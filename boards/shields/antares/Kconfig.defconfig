@@ -1,0 +1,74 @@
+if SHIELD_ANTARES_DONGLE || SHIELD_ANTARES_DONGLE_DISPLAY || SHIELD_ANTARES_LEFT_CENTRAL
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+
+config ZMK_STUDIO
+    default n
+
+endif
+
+
+if SHIELD_ANTARES_DONGLE || SHIELD_ANTARES_DONGLE_DISPLAY
+
+config ZMK_KEYBOARD_NAME
+    default "Antares Dongle"
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
+
+config ZMK_SLEEP
+    default n
+
+endif
+
+
+if SHIELD_ANTARES_DONGLE
+
+config BT_BAS
+    default n
+
+endif
+
+
+if SHIELD_ANTARES_LEFT_CENTRAL
+
+config ZMK_KEYBOARD_NAME
+    default "Antares"
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
+
+endif
+
+
+if SHIELD_ANTARES_LEFT_PERIPHERAL || SHIELD_ANTARES_RIGHT_PERIPHERAL
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BATTERY
+    default y
+
+config ZMK_BATTERY_REPORTING
+    default y
+
+config BT_BAS
+    default y
+
+endif
+
+config ZMK_BLE
+    default y

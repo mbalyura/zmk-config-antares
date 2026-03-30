@@ -1,0 +1,28 @@
+include:
+  # antares Dongle (optional)
+  - board: nice_nano_v2
+    shield: antares_dongle
+    artifact-name: antares-dongle
+
+  # antares Dongle with display (optional)
+  - board: nice_nano_v2
+    shield: antares_dongle_display dongle_display
+    artifact-name: antares-dongle-display
+
+  # antares left can either be a central (no dongle) or peripheral (with dongle)
+  - board: nice_nano_v2
+    shield: antares_left_central
+    artifact-name: antares-left-central
+  - board: nice_nano_v2
+    shield: antares_left_peripheral
+    artifact-name: antares-left-peripheral
+
+  # antares right will always be a peripheral
+  - board: nice_nano_v2
+    shield: antares_right_peripheral
+    artifact-name: antares-right-peripheral
+
+  # Settings Reset
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: settings-reset

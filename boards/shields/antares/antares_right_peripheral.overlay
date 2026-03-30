@@ -1,0 +1,9 @@
+#include "antares.dtsi"
+
+&default_transform {
+	col-offset = <18>;
+};
+
+&right_encoder {
+    status = "okay";
+};

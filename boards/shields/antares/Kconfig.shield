@@ -1,0 +1,14 @@
+config SHIELD_ANTARES_DONGLE
+	def_bool $(shields_list_contains,antares_dongle)
+
+config SHIELD_ANTARES_DONGLE_DISPLAY
+	def_bool $(shields_list_contains,antares_dongle_display)
+
+config SHIELD_ANTARES_LEFT_CENTRAL
+	def_bool $(shields_list_contains,antares_left_central)
+
+config SHIELD_ANTARES_LEFT_PERIPHERAL
+	def_bool $(shields_list_contains,antares_left_peripheral)
+
+config SHIELD_ANTARES_RIGHT_PERIPHERAL
+	def_bool $(shields_list_contains,antares_right_peripheral)
