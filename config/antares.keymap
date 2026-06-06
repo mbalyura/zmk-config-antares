@@ -29,7 +29,7 @@
         compatible = "zmk,conditional-layers";
 
         sys_layer {
-            if-layers = <NAV SYM>;
+            if-layers = <NAV NUM>;
             then-layer = <SYS>;
         };
     };

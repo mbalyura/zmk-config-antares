@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "antares-transform.dtsi"
+#include "antares-encoders.dtsi"
 
 / {
 	chosen {
