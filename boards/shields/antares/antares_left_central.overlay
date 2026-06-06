@@ -1,5 +1,11 @@
 #include "antares.dtsi"
 
+/ {
+	chosen {
+		zmk,kscan = &left_kscan;
+	};
+};
+
 &left_encoder {
     status = "okay";
 };

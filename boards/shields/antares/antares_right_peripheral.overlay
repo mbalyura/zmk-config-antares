@@ -1,9 +1,15 @@
 #include "antares.dtsi"
 
+/ {
+	chosen {
+		zmk,kscan = &right_kscan;
+	};
+};
+
 &default_transform {
 	col-offset = <18>;
 };
 
 &right_encoder {
-    status = "okay";
+	status = "okay";
 };

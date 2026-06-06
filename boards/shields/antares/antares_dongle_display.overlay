@@ -38,6 +38,10 @@
 		page-offset = <0>;
 		display-offset = <0>;
 		multiplex-ratio = <63>;
+		//display rotate
+		segment-remap;
+		com-invdir;
+		//display rotate
 		inversion-on;
 		prechargep = <0x22>;
 	};
