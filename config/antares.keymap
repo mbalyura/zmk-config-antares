@@ -17,8 +17,9 @@
 #define NAV 1
 #define SYM 2
 #define NUM 3
-#define SYS 4
-#define SWP 5
+#define GAM 4
+#define SYS 5
+#define SWP 6
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 
@@ -140,15 +141,26 @@
         numbers-fn_layer {  //3
 			label = "NUM";
             bindings = <
-&kp F1        &kp F2        &kp F3          &kp F4              &kp F22            /* | */        &kp MINUS      &kp N7            &kp N8            &kp N9            &kp STAR
-&kp F5        &kp F6        &kp F7          &kp F8              &kp F23            /* | */        &kp PLUS       &kp N4            &kp N5            &kp N6            &kp N0
-&kp F9        &kp F10       &kp F11         &kp F12             &kp F24            /* | */        &kp EQUAL      &kp N1            &kp N2            &kp N3            &kp SLASH
+&kp F1        &kp F2        &kp F3           &kp F4             &kp F22            /* | */        &kp MINUS      &kp N7            &kp N8            &kp N9            &kp STAR
+&kp F5        &kp F6        &kp F7           &kp F8             &kp F23            /* | */        &kp PLUS       &kp N4            &kp N5            &kp N6            &kp N0
+&kp F9        &kp F10       &kp F11          &kp F12            &kp F24            /* | */        &kp EQUAL      &kp N1            &kp N2            &kp N3            &kp SLASH
                             /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-                                            &trans              &trans             &trans         &trans         &trans
+                                             &trans             &trans             &trans         &trans         &trans
             >;
         };
 
-        system-fun_layer {  //4
+        gaming_layer {  //4
+            label = "GAM";
+			bindings = <
+&kp TAB       &kp Q         &kp W            &kp E              &kp R              /* | */        &none          &none             &kp UP           &none             &kp TAB
+&kp LSFT      &kp A         &kp S            &kp D              &kp F              /* | */        &none          &kp LEFT          &kp DOWN         &kp RIGHT         &kp RSFT
+&kp LCTRL     &kp Z         &kp X            &kp C              &kp V              /* | */        &none          &none             &none            &none             &kp RCTRL
+                            /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+                                             &kp ESC            &kp SPACE          &trans         &kp SPACE      &kp ENTER
+			>;
+		};
+
+        system-media_layer {  //5
 			label = "SYS";
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2    &none              &none              /* | */        &kp K_VOL_UP    &none             &kp F20 /* mic */  &none            &none
@@ -159,7 +171,7 @@
             >;
         };
 
-        swapper_layer { //5
+        swapper_layer {  //6
             label = "SWP";
 			bindings = <
 &none         &none         &kp LS(GRAVE)    &switcher         &none              /* | */        &none            &none          	&none  			      &none             &none
