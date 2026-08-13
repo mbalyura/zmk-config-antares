@@ -39,10 +39,10 @@
 		page-offset = <0>;
 		display-offset = <0>;
 		multiplex-ratio = <63>;
-		//display rotate
+#ifndef DISPLAY_ROTATED
 		segment-remap;
 		com-invdir;
-		//display rotate
+#endif
 		inversion-on;
 		prechargep = <0x22>;
 	};
