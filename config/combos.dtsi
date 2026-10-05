@@ -11,13 +11,13 @@
         cmb_bspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <1 2>;
-            layers = <DEF NAV>;
+            layers = <DEF NAV SYM NUM>;
         };
 
         cmb_del {
             bindings = <&kp DELETE>;
             key-positions = <2 3>;
-            layers = <DEF NAV>;
+            layers = <DEF NAV SYM NUM>;
         };
 
         cmb_cut {
@@ -54,7 +54,7 @@
 
         cmb_lang {
             bindings = <&kp SCROLLLOCK>;
-            key-positions = <6 8>;
+            key-positions = <6 7 8>;
             layers = <DEF>;
         };
 
