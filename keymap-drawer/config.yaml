@@ -1,0 +1,31 @@
+draw_config:
+  dark_mode: true
+  separate_combo_diagrams: false
+  shrink_wide_legends: 5
+  footer_text: Antares · generated with keymap-drawer
+parse_config:
+  zmk_combos:
+    # Keep long combo connectors outside the key rows.
+    combo_toggle_gaming:
+      align: top
+      offset: 0.5
+      dendron: true
+    cmb_lang:
+      align: top
+      offset: 0.5
+      dendron: true
+    cmb_caps:
+      align: bottom
+      offset: 0.5
+      dendron: true
+  raw_binding_map:
+    "&tabber": "Ctrl+Tab"
+    "&switcher": "Alt+Grave"
+    "&swapper": "Alt+Tab"
+    "&caps_word": "Caps Word"
+    "&kp BACKSPACE": "Bksp"
+    "&kp SCROLLLOCK": "Scroll Lock"
+    "&bootloader": "Boot"
+    "&sys_reset": "Reset"
+    "&soft_off": "Power off"
+    "&ext_power EP_TOG": "Ext power"
