@@ -1,4 +1,4 @@
-<svg width="910" height="2649" viewBox="0 0 910 2649" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="910" height="2520" viewBox="0 0 910 2520" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style>/* inherit to force styles through use tags */
 svg path {
     fill: inherit;
@@ -123,6 +123,15 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
+
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
 </style>
 <g transform="translate(30, 0)" class="layer-DEF">
 <text x="0" y="28" class="label" id="DEF">DEF:</text>
@@ -352,7 +361,7 @@ path.combo {
 </g>
 <g transform="translate(30, 370)" class="layer-NAV">
 <text x="0" y="28" class="label" id="NAV">NAV:</text>
-<g transform="translate(0, 77)">
+<g transform="translate(0, 56)">
 <g transform="translate(33, 114) rotate(-12.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Ctl+Q</text>
@@ -513,21 +522,11 @@ path.combo {
 <rect rx="6" ry="6" x="177" y="26" width="28" height="26" class="combo"/>
 <text x="191" y="39" class="combo tap"><tspan style="font-size: 83%">DELETE</tspan></text>
 </g>
-<g class="combo combopos-2">
-<path d="M425,-8 h-193 a6.0,6.0 0 0 0 -6.0,6.0 v32" class="combo"/>
-<path d="M425,-8 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h134 a6.0,6.0 0 0 1 6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h193 a6.0,6.0 0 0 1 6.0,6.0 v32" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-21" width="28" height="26" class="combo"/>
-<a href="#GAM">
-<text x="425" y="-8" class="combo tap layer-activator">GAM</text>
-</a><text x="425" y="3" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
-</g>
-<g transform="translate(30, 741)" class="layer-SYM">
+<g transform="translate(30, 719)" class="layer-SYM">
 <text x="0" y="28" class="label" id="SYM">SYM:</text>
-<g transform="translate(0, 77)">
+<g transform="translate(0, 56)">
 <g transform="translate(33, 114) rotate(-12.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">!</text>
@@ -678,21 +677,11 @@ path.combo {
 <rect rx="6" ry="6" x="177" y="26" width="28" height="26" class="combo"/>
 <text x="191" y="39" class="combo tap"><tspan style="font-size: 83%">DELETE</tspan></text>
 </g>
-<g class="combo combopos-2">
-<path d="M425,-8 h-193 a6.0,6.0 0 0 0 -6.0,6.0 v32" class="combo"/>
-<path d="M425,-8 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h134 a6.0,6.0 0 0 1 6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h193 a6.0,6.0 0 0 1 6.0,6.0 v32" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-21" width="28" height="26" class="combo"/>
-<a href="#GAM">
-<text x="425" y="-8" class="combo tap layer-activator">GAM</text>
-</a><text x="425" y="3" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
-</g>
-<g transform="translate(30, 1111)" class="layer-NUM">
+<g transform="translate(30, 1068)" class="layer-NUM">
 <text x="0" y="28" class="label" id="NUM">NUM:</text>
-<g transform="translate(0, 77)">
+<g transform="translate(0, 56)">
 <g transform="translate(33, 114) rotate(-12.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F1</text>
@@ -840,21 +829,11 @@ path.combo {
 <rect rx="6" ry="6" x="177" y="26" width="28" height="26" class="combo"/>
 <text x="191" y="39" class="combo tap"><tspan style="font-size: 83%">DELETE</tspan></text>
 </g>
-<g class="combo combopos-2">
-<path d="M425,-8 h-193 a6.0,6.0 0 0 0 -6.0,6.0 v32" class="combo"/>
-<path d="M425,-8 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h134 a6.0,6.0 0 0 1 6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h193 a6.0,6.0 0 0 1 6.0,6.0 v32" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-21" width="28" height="26" class="combo"/>
-<a href="#GAM">
-<text x="425" y="-8" class="combo tap layer-activator">GAM</text>
-</a><text x="425" y="3" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
-</g>
-<g transform="translate(30, 1482)" class="layer-GAM">
+<g transform="translate(30, 1417)" class="layer-GAM">
 <text x="0" y="28" class="label" id="GAM">GAM:</text>
-<g transform="translate(0, 77)">
+<g transform="translate(0, 56)">
 <g transform="translate(33, 114) rotate(-12.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
@@ -987,21 +966,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ENTER</text>
 </g>
-<g class="combo combopos-0">
-<path d="M425,-8 h-193 a6.0,6.0 0 0 0 -6.0,6.0 v32" class="combo"/>
-<path d="M425,-8 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h134 a6.0,6.0 0 0 1 6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h193 a6.0,6.0 0 0 1 6.0,6.0 v32" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-21" width="28" height="26" class="combo"/>
-<a href="#GAM">
-<text x="425" y="-8" class="combo tap layer-activator">GAM</text>
-</a><text x="425" y="3" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
-</g>
-<g transform="translate(30, 1852)" class="layer-SYS">
+<g transform="translate(30, 1766)" class="layer-SYS">
 <text x="0" y="28" class="label" id="SYS">SYS:</text>
-<g transform="translate(0, 77)">
+<g transform="translate(0, 56)">
 <g transform="translate(33, 114) rotate(-12.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
@@ -1148,21 +1117,11 @@ path.combo {
 <g transform="translate(536, 245) rotate(-4.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M425,-8 h-193 a6.0,6.0 0 0 0 -6.0,6.0 v32" class="combo"/>
-<path d="M425,-8 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h134 a6.0,6.0 0 0 1 6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h193 a6.0,6.0 0 0 1 6.0,6.0 v32" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-21" width="28" height="26" class="combo"/>
-<a href="#GAM">
-<text x="425" y="-8" class="combo tap layer-activator">GAM</text>
-</a><text x="425" y="3" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
-</g>
-<g transform="translate(30, 2222)" class="layer-SWP">
+<g transform="translate(30, 2115)" class="layer-SWP">
 <text x="0" y="28" class="label" id="SWP">SWP:</text>
-<g transform="translate(0, 77)">
+<g transform="translate(0, 56)">
 <g transform="translate(33, 114) rotate(-12.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
@@ -1284,16 +1243,6 @@ path.combo {
 <g transform="translate(536, 245) rotate(-4.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g class="combo combopos-0">
-<path d="M425,-8 h-193 a6.0,6.0 0 0 0 -6.0,6.0 v32" class="combo"/>
-<path d="M425,-8 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h134 a6.0,6.0 0 0 1 6.0,6.0 v51" class="combo"/>
-<path d="M425,-8 h193 a6.0,6.0 0 0 1 6.0,6.0 v32" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-21" width="28" height="26" class="combo"/>
-<a href="#GAM">
-<text x="425" y="-8" class="combo tap layer-activator">GAM</text>
-</a><text x="425" y="3" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
-</g>
-<text x="880.0" y="2621.0" class="footer">Antares · generated with keymap-drawer</text></svg>
+<text x="880.0" y="2492.0" class="footer">Antares · generated with keymap-drawer</text></svg>
